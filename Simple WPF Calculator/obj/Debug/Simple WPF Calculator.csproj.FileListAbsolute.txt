@@ -1,0 +1,14 @@
+D:\LearnProjects\WPF\Simple WPF Calculator\Simple WPF Calculator\bin\Debug\Simple WPF Calculator.exe.config
+D:\LearnProjects\WPF\Simple WPF Calculator\Simple WPF Calculator\bin\Debug\Simple WPF Calculator.exe
+D:\LearnProjects\WPF\Simple WPF Calculator\Simple WPF Calculator\bin\Debug\Simple WPF Calculator.pdb
+D:\LearnProjects\WPF\Simple WPF Calculator\Simple WPF Calculator\obj\Debug\Simple WPF Calculator.csprojAssemblyReference.cache
+D:\LearnProjects\WPF\Simple WPF Calculator\Simple WPF Calculator\obj\Debug\MainWindow.g.cs
+D:\LearnProjects\WPF\Simple WPF Calculator\Simple WPF Calculator\obj\Debug\App.g.cs
+D:\LearnProjects\WPF\Simple WPF Calculator\Simple WPF Calculator\obj\Debug\Simple WPF Calculator_MarkupCompile.cache
+D:\LearnProjects\WPF\Simple WPF Calculator\Simple WPF Calculator\obj\Debug\Simple WPF Calculator_MarkupCompile.lref
+D:\LearnProjects\WPF\Simple WPF Calculator\Simple WPF Calculator\obj\Debug\MainWindow.baml
+D:\LearnProjects\WPF\Simple WPF Calculator\Simple WPF Calculator\obj\Debug\Simple WPF Calculator.g.resources
+D:\LearnProjects\WPF\Simple WPF Calculator\Simple WPF Calculator\obj\Debug\Simple_WPF_Calculator.Properties.Resources.resources
+D:\LearnProjects\WPF\Simple WPF Calculator\Simple WPF Calculator\obj\Debug\Simple WPF Calculator.csproj.GenerateResource.cache
+D:\LearnProjects\WPF\Simple WPF Calculator\Simple WPF Calculator\obj\Debug\Simple WPF Calculator.exe
+D:\LearnProjects\WPF\Simple WPF Calculator\Simple WPF Calculator\obj\Debug\Simple WPF Calculator.pdb

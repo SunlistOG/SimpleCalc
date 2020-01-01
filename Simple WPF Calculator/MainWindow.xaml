@@ -1,0 +1,169 @@
+﻿<Window x:Class="Simple_WPF_Calculator.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:Simple_WPF_Calculator"
+        mc:Ignorable="d"
+        Title="Simple Calculator" Height="525" Width="365">
+    <Grid Margin="10">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Label Content="0" x:Name="resultLabel" Grid.ColumnSpan="4"
+               HorizontalAlignment="Right"
+               VerticalAlignment="Bottom"
+               FontSize="60">
+        </Label>
+        <Button x:Name="acButton" Content="AC"
+                Grid.Row="1"
+                Grid.Column="0"
+                Margin="5">
+        </Button>
+
+        <Button x:Name="negativeButton" Content="+/-"
+                Grid.Row="1"
+                Grid.Column="1"
+                Margin="5">
+        </Button>
+
+        <Button x:Name="percentageButton" Content="%"
+                Grid.Row="1"
+                Grid.Column="2"
+                Margin="5">
+        </Button>
+
+        <Button x:Name="divideButton" Content="/"
+                Click="OperationButton_Click"
+                Background="#ff9500"
+                Foreground="White"
+                Grid.Row="1"
+                Grid.Column="3"
+                Margin="5">
+        </Button>
+
+        <Button x:Name="multiplyButton" Content="*"
+                Click="OperationButton_Click"
+                Background="#ff9500"
+                Foreground="White"
+                Grid.Row="2"
+                Grid.Column="3"
+                Margin="5">
+        </Button>
+
+        <Button x:Name="nineButton" Content="9"
+                Click="numberButton_Click"
+                Grid.Row="2"
+                Grid.Column="2"
+                Margin="5">
+        </Button>
+
+        <Button x:Name="eightButton" Content="8"
+                Click="numberButton_Click"
+                Grid.Row="2"
+                Grid.Column="1"
+                Margin="5">
+        </Button>
+
+        <Button x:Name="sevenButton" Content="7"
+                Click="numberButton_Click"
+                Grid.Row="2"
+                Grid.Column="0"
+                Margin="5">
+        </Button>
+
+        <Button x:Name="minusButton" Content="-"
+                Click="OperationButton_Click"
+                Background="#ff9500"
+                Foreground="White"
+                Grid.Row="3"
+                Grid.Column="3"
+                Margin="5">
+        </Button>
+
+        <Button x:Name="sixButton" Content="6"
+                Click="numberButton_Click"
+                Grid.Row="3"
+                Grid.Column="2"
+                Margin="5">
+        </Button>
+
+        <Button x:Name="fiveButton" Content="5"
+                Click="numberButton_Click"
+                Grid.Row="3"
+                Grid.Column="1"
+                Margin="5">
+        </Button>
+
+        <Button x:Name="fourButton" Content="4"
+                Click="numberButton_Click"
+                Grid.Row="3"
+                Grid.Column="0"
+                Margin="5">
+        </Button>
+
+        <Button x:Name="plusButton" Content="+"
+                Click="OperationButton_Click"
+                Background="#ff9500"
+                Foreground="White"
+                Grid.Row="4"
+                Grid.Column="3"
+                Margin="5">
+        </Button>
+
+        <Button x:Name="threeButton" Content="3"
+                Click="numberButton_Click"
+                Grid.Row="4"
+                Grid.Column="2"
+                Margin="5">
+        </Button>
+
+        <Button x:Name="twoButton" Content="2"
+                Click="numberButton_Click"
+                Grid.Row="4"
+                Grid.Column="1"
+                Margin="5">
+        </Button>
+
+        <Button x:Name="oneButton" Content="1"
+                Click="numberButton_Click"
+                Grid.Row="4"
+                Grid.Column="0"
+                Margin="5">
+        </Button>
+
+        <Button x:Name="equilsButton" Content="="
+                Background="#ff9500"
+                Foreground="White"
+                Grid.Row="5"               
+                Grid.Column="3"
+                Margin="5">
+        </Button>
+
+        <Button x:Name="dotButton" Content="."
+                Grid.Row="5"
+                Grid.Column="2"
+                Margin="5" Click="dotButton_Click">
+        </Button>
+
+        <Button x:Name="zeroButton" Content="0"
+                Click="numberButton_Click"
+                Grid.Row="5"
+                Grid.ColumnSpan="2"             
+                Margin="5">
+        </Button>
+
+
+    </Grid>
+</Window>
