@@ -98,12 +98,6 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <Resource Include="calculator.ico" />
-  </ItemGroup>
-  <ItemGroup>
-    <Resource Include="calculator %281%29.ico" />
-  </ItemGroup>
-  <ItemGroup>
     <Resource Include="calculator %282%29.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />

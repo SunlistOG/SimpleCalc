@@ -1,17 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
-using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+﻿using System.Windows;
 
 namespace Simple_WPF_Calculator
 {
@@ -186,7 +173,7 @@ namespace Simple_WPF_Calculator
         {
             if (n2 == 0)
             {
-                MessageBox.Show("You can not divide by 0!", "Wrong operation", MessageBoxButton.OK, MessageBoxImage.Error);
+                MessageBox.Show("You can not divide by 0!", "Wrong operation", MessageBoxButton.OK, MessageBoxImage.Warning);
                 return 0;
             }
             return n1 / n2;

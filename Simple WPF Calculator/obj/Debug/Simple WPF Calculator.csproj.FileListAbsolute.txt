@@ -12,3 +12,4 @@ D:\LearnProjects\WPF\Simple WPF Calculator\Simple WPF Calculator\obj\Debug\Simpl
 D:\LearnProjects\WPF\Simple WPF Calculator\Simple WPF Calculator\obj\Debug\Simple WPF Calculator.csproj.GenerateResource.cache
 D:\LearnProjects\WPF\Simple WPF Calculator\Simple WPF Calculator\obj\Debug\Simple WPF Calculator.exe
 D:\LearnProjects\WPF\Simple WPF Calculator\Simple WPF Calculator\obj\Debug\Simple WPF Calculator.pdb
+D:\LearnProjects\WPF\Simple WPF Calculator\Simple WPF Calculator\obj\Debug\App.baml
